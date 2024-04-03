@@ -13,8 +13,8 @@
 
 <body>
 
-    <style>
-        .one{
+   <style>
+        .one-1{
             background-color: tomato;
             color: white;
             font-size: 20px;
@@ -85,7 +85,7 @@
         </tr>
 
 
-    </table>
+    </table> 
     <!-- End table -->
     <hr>
 
@@ -107,10 +107,10 @@
     <hr>
 
     <iframe src="http://127.0.0.1:5501/index.html" width="500px" height="400px"></iframe>
-    <hr>
+    <hr> 
 
     <!-- start Div -->
-    <div class="one">
+    <div class="one-1">
         <h2>my name is Div one</h2>
         <p>hello world i am murtada mohammed ohed </p>
     </div>
@@ -121,9 +121,9 @@
     <div id="three">
         <h2>my name is Div Three</h2>
         <p>hello world i am murtada mohammed ohed </p>
-    </div>
+    </div> 
 
-    <!-- End Div -->
+   
 
 
     <!-- Start Semantics -->
@@ -134,11 +134,11 @@
     <main></main>
     <section></section>
     <article></article>
-    <footer></footer>
+    <footer></footer> -->
     
     <!-- End Semantics -->
 
-    <p>I will display &euro;</p>
+    <!-- <p>I will display &euro;</p> -->
 
     <!-- Statr Emojis -->
 
@@ -155,7 +155,78 @@
         😅	&#128517;
     </p>
 
-    <!-- End Emojis -->
+    <br>
+    <hr>
+    <hr>  
+ 
+
+
+    <!-- start forms -->
+
+   
+    <div class="container">
+        <h1>تسجيل المصابين</h1>
+
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">أسم المصاب</span>
+                    <input type="text" placeholder="ادخل أسم المصاب" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">مكان الاصابة</span>
+                    <input type="text" placeholder="أدخل مكان الاصابة" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">البريد الالكتروني</span>
+                    <input type="email" placeholder="ادخل البريد الالكتروني للمصاب" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">رقم الهاتف</span>
+                    <input type="number" placeholder="ادخل رقم الهاتف للمصاب">
+                </div>
+                <div class="input-box">
+                    <span class="details">الحالة الاجتماعية </span>
+                    <input type="text" placeholder="متزوج او اعزب">
+                </div>
+                <div class="input-box">
+                    <span class="details">تاريخ الاصابة</span>
+                    <input type="date"  required>
+                </div>
+            </div>
+    
+    
+    
+            <div class="gender-details">
+                <span class="gender-title">المستشفى</span>
+                <div class="categorys">
+                    <div class="category">
+                        <input id="r1" type="radio"  name="gen">
+                        <label for="r1" class="gender">حكومي</label>
+                    </div>
+                    <div class="category">
+                        <input  id="r2" type="radio" name="gen">
+                        <label for="r2" class="gender">اهلي</label>
+                    </div>
+                    <div class="category">
+                        <input id="r3" type="radio" name="gen">
+                        <label for="r3" class="dot one">خارج البلد</label>     
+                    </div>
+
+                </div>
+               
+            </div>
+    
+
+            <div class="button">
+                <input class="register" type="submit" value="تسجيل">
+            </div>
+        </form>
+    
+
+    </div>
+
+    <!-- end forms -->
 
     <script>
 
